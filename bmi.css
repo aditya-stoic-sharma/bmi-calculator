@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(resources/risen-wang-20jX9b35r_M-unsplash.jpg) no-repeat center center / cover;
+}
+
+.container{
+    border: 2px solid rgb(231, 223, 223);
+    border-radius: 10px;
+    padding: 10px 10px;
+    /* height: 350px; */
+    width: 500px;
+    background-color: rgb(234, 233, 233);
+    box-shadow: 0 0 20px;
+    text-align: center;
+}
+
+.inputName{
+    display: flex;
+    /* border: 2px solid black; */
+    margin: 5px 5px;
+    padding: 5px 5px; 
+}
+.inputName .name{
+    margin: 3px 5px;
+    border: 2px solid black;
+    padding: 10px 3px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    flex: 3;
+}
+.inputName input{
+    font-size: 1.2rem;
+    flex: 3; 
+    margin: 3px 5px;
+    border-radius: 5px;
+    height: 50px;
+}
+.inputWeight{
+    display: flex;
+    /* border: 2px solid black; */
+    margin: 5px 5px;
+    padding: 5px 5px; 
+}
+.inputWeight .Weight{
+    margin: 3px 5px;
+    border: 2px solid black;
+    padding: 10px 3px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    flex: 3;
+}
+.inputWeight input{
+    font-size: 1.2rem;
+    flex: 3; 
+    margin: 3px 5px;
+    border-radius: 5px;
+    height: 50px;
+}
+.inputHeight{
+    display: flex;
+    /* border: 2px solid black; */
+    margin: 5px 5px;
+    padding: 5px 5px; 
+}
+.inputHeight .Height{
+    margin: 3px 5px;
+    border: 2px solid black;
+    padding: 10px 3px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    flex: 3;
+}
+.inputHeight input{
+    font-size: 1.2rem;
+    flex: 3; 
+    margin: 3px 5px;
+    border-radius: 5px;
+    height: 50px;
+}
+#btn{
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    width: 200px;
+}
+#btn:hover{
+    background-color: black;
+    color: white;
+}
+.display{
+    background-color: white;
+    margin: 15px 20px;
+    padding: 5px 5px;
+}
+.display .print{
+    margin-bottom: 3px;
+    line-height: 45px;
+    font-size: 1.5rem;
+}
+.display .health{
+    margin-bottom: 5px;
+    line-height: 45px;
+    font-size: 1.5rem;
+}
+input{
+    padding: 0px 5px;
+}
