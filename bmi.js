@@ -19,8 +19,8 @@ btn.addEventListener('click' ,function() {
     health.innerText = `khu khu kr krkr rkr krkr krk`;
     return
     }
-    if(Iname.value === ""){
-        alert('enter a valid name');
+    // if(Iname.value === ""){
+    //     alert('enter a valid name');
     // }
     // if(Iweight.value === ""){
     //     alert('enter valid weight');
